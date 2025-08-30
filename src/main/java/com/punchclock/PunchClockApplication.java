@@ -9,5 +9,4 @@ public class PunchClockApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(PunchClockApplication.class, args);
 	}
-
 }
