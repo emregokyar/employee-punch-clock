@@ -11,7 +11,7 @@ INSERT INTO roles(role) VALUES ("admin", "regular");
 CREATE TABLE users(
 	id INT PRIMARY KEY AUTO_INCREMENT,
 	username VARCHAR(49) UNIQUE NOT NULL,
-    password VARCHAR(49) NOT NULL,
+    password VARCHAR(255) NOT NULL,
     firstname VARCHAR(49) NOT NULL,
     lastname VARCHAR(49) NOT NULL,
     profile_photo VARCHAR(255) DEFAULT NULL,

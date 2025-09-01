@@ -21,7 +21,13 @@ public class WebSecurityConfig {
     private final CustomAuthenticationSuccessHandler successHandler;
 
     private final String[] publicUrls = {
-        "/"
+            "/",
+            "/resources/**",
+            "/js/**",
+            "/css/**",
+            "/*.css",
+            "/*.js",
+            "/error"
     };
 
     @Autowired
